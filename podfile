@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'JSON数据解析' do
+  pod 'MBProgressHUD', '~> 1.0.0'
+end
