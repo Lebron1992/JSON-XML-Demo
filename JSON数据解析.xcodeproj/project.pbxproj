@@ -12,9 +12,17 @@
 		4AA5A6031E5745DE00A1E843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA5A6011E5745DE00A1E843 /* Main.storyboard */; };
 		4AA5A6051E5745DE00A1E843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA5A6041E5745DE00A1E843 /* Assets.xcassets */; };
 		4AA5A6081E5745DE00A1E843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA5A6061E5745DE00A1E843 /* LaunchScreen.storyboard */; };
+		4AA5A61C1E58612A00A1E843 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA5A61A1E58612A00A1E843 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4AA5A61F1E587B2E00A1E843 /* info.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4AA5A61E1E587B2E00A1E843 /* info.xml */; };
+		4AA5A6211E587C3200A1E843 /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AA5A6201E587C3200A1E843 /* weather.json */; };
+		4AA5A62C1E5887FE00A1E843 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA5A62B1E5887FE00A1E843 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4AA5A62D1E58881500A1E843 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA5A6261E58834400A1E843 /* libxml2.2.tbd */; };
+		4AA5A62F1E5891E300A1E843 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA5A62E1E5891E300A1E843 /* test.swift */; };
+		8F388B319A04643BB2F7FB05 /* Pods_JSON____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C55F06B54509DD2C5C261D9 /* Pods_JSON____.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C55F06B54509DD2C5C261D9 /* Pods_JSON____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_JSON____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA5A5FA1E5745DE00A1E843 /* JSON数据解析.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON数据解析.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA5A5FD1E5745DE00A1E843 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA5A5FF1E5745DE00A1E843 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,17 @@
 		4AA5A6041E5745DE00A1E843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AA5A6071E5745DE00A1E843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AA5A6091E5745DE00A1E843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA5A6191E58612A00A1E843 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		4AA5A61A1E58612A00A1E843 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		4AA5A61B1E58612A00A1E843 /* JSON数据解析-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSON数据解析-Bridging-Header.h"; sourceTree = "<group>"; };
+		4AA5A61E1E587B2E00A1E843 /* info.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = info.xml; sourceTree = "<group>"; };
+		4AA5A6201E587C3200A1E843 /* weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
+		4AA5A6261E58834400A1E843 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		4AA5A62A1E5887FE00A1E843 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		4AA5A62B1E5887FE00A1E843 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		4AA5A62E1E5891E300A1E843 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		752159C0C549B6B52F1F76FD /* Pods-JSON数据解析.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON数据解析.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSON数据解析/Pods-JSON数据解析.release.xcconfig"; sourceTree = "<group>"; };
+		E06E75D472878B17BCCB35E7 /* Pods-JSON数据解析.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON数据解析.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSON数据解析/Pods-JSON数据解析.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +48,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA5A62D1E58881500A1E843 /* libxml2.2.tbd in Frameworks */,
+				8F388B319A04643BB2F7FB05 /* Pods_JSON____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		148B59FCDA8FCECE51B78F84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AA5A6261E58834400A1E843 /* libxml2.2.tbd */,
+				0C55F06B54509DD2C5C261D9 /* Pods_JSON____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4AA5A5F11E5745DE00A1E843 = {
 			isa = PBXGroup;
 			children = (
 				4AA5A5FC1E5745DE00A1E843 /* JSON数据解析 */,
 				4AA5A5FB1E5745DE00A1E843 /* Products */,
+				BD1D6E344E8CA35192871A31 /* Pods */,
+				148B59FCDA8FCECE51B78F84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,47 @@
 		4AA5A5FC1E5745DE00A1E843 /* JSON数据解析 */ = {
 			isa = PBXGroup;
 			children = (
+				4AA5A6221E587C3600A1E843 /* Source files */,
+				4AA5A61D1E58613A00A1E843 /* Lib */,
 				4AA5A5FD1E5745DE00A1E843 /* AppDelegate.swift */,
 				4AA5A5FF1E5745DE00A1E843 /* ViewController.swift */,
 				4AA5A6011E5745DE00A1E843 /* Main.storyboard */,
 				4AA5A6041E5745DE00A1E843 /* Assets.xcassets */,
 				4AA5A6061E5745DE00A1E843 /* LaunchScreen.storyboard */,
+				4AA5A61B1E58612A00A1E843 /* JSON数据解析-Bridging-Header.h */,
 				4AA5A6091E5745DE00A1E843 /* Info.plist */,
+				4AA5A62E1E5891E300A1E843 /* test.swift */,
 			);
 			path = "JSON数据解析";
+			sourceTree = "<group>";
+		};
+		4AA5A61D1E58613A00A1E843 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				4AA5A62A1E5887FE00A1E843 /* GDataXMLNode.h */,
+				4AA5A62B1E5887FE00A1E843 /* GDataXMLNode.m */,
+				4AA5A6191E58612A00A1E843 /* JSONKit.h */,
+				4AA5A61A1E58612A00A1E843 /* JSONKit.m */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		4AA5A6221E587C3600A1E843 /* Source files */ = {
+			isa = PBXGroup;
+			children = (
+				4AA5A61E1E587B2E00A1E843 /* info.xml */,
+				4AA5A6201E587C3200A1E843 /* weather.json */,
+			);
+			name = "Source files";
+			sourceTree = "<group>";
+		};
+		BD1D6E344E8CA35192871A31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E06E75D472878B17BCCB35E7 /* Pods-JSON数据解析.debug.xcconfig */,
+				752159C0C549B6B52F1F76FD /* Pods-JSON数据解析.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AA5A60C1E5745DE00A1E843 /* Build configuration list for PBXNativeTarget "JSON数据解析" */;
 			buildPhases = (
+				171F8D1F678C600E37FC49D5 /* [CP] Check Pods Manifest.lock */,
 				4AA5A5F61E5745DE00A1E843 /* Sources */,
 				4AA5A5F71E5745DE00A1E843 /* Frameworks */,
 				4AA5A5F81E5745DE00A1E843 /* Resources */,
+				0B27438B2DF52AB2DC53FD21 /* [CP] Embed Pods Frameworks */,
+				362139D424C0D7F0D4839C17 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +165,7 @@
 					4AA5A5F91E5745DE00A1E843 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = HN63343AHN;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,13 +193,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA5A6211E587C3200A1E843 /* weather.json in Resources */,
 				4AA5A6081E5745DE00A1E843 /* LaunchScreen.storyboard in Resources */,
 				4AA5A6051E5745DE00A1E843 /* Assets.xcassets in Resources */,
 				4AA5A6031E5745DE00A1E843 /* Main.storyboard in Resources */,
+				4AA5A61F1E587B2E00A1E843 /* info.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B27438B2DF52AB2DC53FD21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSON数据解析/Pods-JSON数据解析-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		171F8D1F678C600E37FC49D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		362139D424C0D7F0D4839C17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSON数据解析/Pods-JSON数据解析-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4AA5A5F61E5745DE00A1E843 /* Sources */ = {
@@ -138,7 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AA5A6001E5745DE00A1E843 /* ViewController.swift in Sources */,
+				4AA5A62C1E5887FE00A1E843 /* GDataXMLNode.m in Sources */,
 				4AA5A5FE1E5745DE00A1E843 /* AppDelegate.swift in Sources */,
+				4AA5A62F1E5891E300A1E843 /* test.swift in Sources */,
+				4AA5A61C1E58612A00A1E843 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,26 +379,51 @@
 		};
 		4AA5A60D1E5745DE00A1E843 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06E75D472878B17BCCB35E7 /* Pods-JSON数据解析.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = HN63343AHN;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "JSON数据解析/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-lxml2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lebron.JSON----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "JSON数据解析/JSON数据解析-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4AA5A60E1E5745DE00A1E843 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752159C0C549B6B52F1F76FD /* Pods-JSON数据解析.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = HN63343AHN;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "JSON数据解析/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-lxml2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lebron.JSON----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "JSON数据解析/JSON数据解析-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +447,7 @@
 				4AA5A60E1E5745DE00A1E843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

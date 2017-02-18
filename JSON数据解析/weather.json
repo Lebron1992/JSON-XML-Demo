@@ -1,0 +1,353 @@
+{
+  "showapi_res_code": 0,
+  "showapi_res_error": "",
+  "showapi_res_body": {
+    "ret_code": 0,
+    "area": "北京",
+    "month": "201601",
+    "areaid": "101010100",
+    "list": [
+      {
+        "aqiLevel": "1",
+        "min_temperature": "-9",
+        "time": "20160131",
+        "wind_direction": "北风",
+        "wind_power": "3-4级",
+        "aqi": "31",
+        "weather": "晴",
+        "max_temperature": "1",
+        "aqiInfo": "优"
+      },
+      {
+        "aqiLevel": "2",
+        "time": "20160130",
+        "min_temperature": "-10",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "71",
+        "weather": "阴-多云",
+        "max_temperature": "-3",
+        "aqiInfo": "良"
+      },
+      {
+        "aqiLevel": "2",
+        "time": "20160129",
+        "min_temperature": "-6",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "75",
+        "weather": "多云-阴",
+        "max_temperature": "0",
+        "aqiInfo": "良"
+      },
+      {
+        "aqiLevel": "5",
+        "time": "20160128",
+        "min_temperature": "-7",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "210",
+        "weather": "晴-多云",
+        "max_temperature": "4",
+        "aqiInfo": "重度污染"
+      },
+      {
+        "aqiLevel": "5",
+        "time": "20160127",
+        "min_temperature": "-7",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "210",
+        "weather": "晴-多云",
+        "max_temperature": "3",
+        "aqiInfo": "重度污染"
+      },
+      {
+        "aqiLevel": "3",
+        "time": "20160126",
+        "min_temperature": "-10",
+        "wind_direction": "北风-无持续风向",
+        "wind_power": "3-4级~微风",
+        "aqi": "113",
+        "weather": "晴",
+        "max_temperature": "2",
+        "aqiInfo": "轻度污染"
+      },
+      {
+        "aqiLevel": "2",
+        "time": "20160125",
+        "min_temperature": "-8",
+        "wind_direction": "无持续风向-北风",
+        "wind_power": "微风~3-4级",
+        "aqi": "51",
+        "weather": "晴",
+        "max_temperature": "3",
+        "aqiInfo": "良"
+      },
+      {
+        "aqiLevel": "2",
+        "time": "20160124",
+        "min_temperature": "-11",
+        "wind_direction": "北风-无持续风向",
+        "wind_power": "4-5级~微风",
+        "aqi": "53",
+        "weather": "晴",
+        "max_temperature": "-3",
+        "aqiInfo": "良"
+      },
+      {
+        "aqiLevel": "2",
+        "time": "20160123",
+        "min_temperature": "-14",
+        "wind_direction": "北风",
+        "wind_power": "5-6级~4-5级",
+        "aqi": "65",
+        "weather": "晴",
+        "max_temperature": "-11",
+        "aqiInfo": "良"
+      },
+      {
+        "aqiLevel": "1",
+        "time": "20160122",
+        "min_temperature": "-16",
+        "wind_direction": "北风",
+        "wind_power": "4-5级~3-4级",
+        "aqi": "24",
+        "weather": "多云-晴",
+        "max_temperature": "-6",
+        "aqiInfo": "优"
+      },
+      {
+        "aqiLevel": "4",
+        "time": "20160121",
+        "min_temperature": "-9",
+        "wind_direction": "无持续风向-北风",
+        "wind_power": "微风~3-4级",
+        "aqi": "193",
+        "weather": "小雪-阴",
+        "max_temperature": "-2",
+        "aqiInfo": "中度污染"
+      },
+      {
+        "aqiLevel": "4",
+        "time": "20160120",
+        "min_temperature": "-7",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "192",
+        "weather": "多云-阴",
+        "max_temperature": "-2",
+        "aqiInfo": "中度污染"
+      },
+      {
+        "aqiLevel": "3",
+        "time": "20160119",
+        "min_temperature": "-9",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "141",
+        "weather": "晴",
+        "max_temperature": "-2",
+        "aqiInfo": "轻度污染"
+      },
+      {
+        "aqiLevel": "1",
+        "time": "20160118",
+        "min_temperature": "-11",
+        "wind_direction": "北风-无持续风向",
+        "wind_power": "3-4级~微风",
+        "aqi": "40",
+        "weather": "晴",
+        "max_temperature": "-3",
+        "aqiInfo": "优"
+      },
+      {
+        "aqiLevel": "1",
+        "time": "20160117",
+        "min_temperature": "-10",
+        "wind_direction": "北风",
+        "wind_power": "3-4级",
+        "aqi": "35",
+        "weather": "晴",
+        "max_temperature": "-2",
+        "aqiInfo": "优"
+      },
+      {
+        "aqiLevel": "4",
+        "time": "20160116",
+        "min_temperature": "-6",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "189",
+        "weather": "阴-小雪",
+        "max_temperature": "-1",
+        "aqiInfo": "中度污染"
+      },
+      {
+        "aqiLevel": "5",
+        "time": "20160115",
+        "min_temperature": "-5",
+        "wind_direction": "东风",
+        "wind_power": "微风",
+        "aqi": "204",
+        "weather": "霾-阴",
+        "max_temperature": "2",
+        "aqiInfo": "重度污染"
+      },
+      {
+        "aqiLevel": "3",
+        "time": "20160114",
+        "min_temperature": "-7",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "138",
+        "weather": "多云-晴",
+        "max_temperature": "3",
+        "aqiInfo": "轻度污染"
+      },
+      {
+        "aqiLevel": "2",
+        "time": "20160113",
+        "min_temperature": "-7℃",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "68",
+        "weather": "晴-多云",
+        "max_temperature": "2℃",
+        "aqiInfo": "良"
+      },
+      {
+        "aqiLevel": "1",
+        "time": "20160112",
+        "min_temperature": "-8℃",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "33",
+        "weather": "晴",
+        "max_temperature": "0℃",
+        "aqiInfo": "优"
+      },
+      {
+        "aqiLevel": "1",
+        "time": "20160111",
+        "min_temperature": "-9℃",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "27",
+        "weather": "晴",
+        "max_temperature": "-1℃",
+        "aqiInfo": "优"
+      },
+      {
+        "aqiLevel": "1",
+        "time": "20160110",
+        "min_temperature": "-8℃",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "36",
+        "weather": "多云-晴",
+        "max_temperature": "1℃",
+        "aqiInfo": "优"
+      },
+      {
+        "aqiLevel": "4",
+        "time": "20160109",
+        "min_temperature": "-6℃",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "192",
+        "weather": "晴-多云",
+        "max_temperature": "3℃",
+        "aqiInfo": "中度污染"
+      },
+      {
+        "aqiLevel": "3",
+        "time": "20160108",
+        "min_temperature": "-8℃",
+        "wind_direction": "北风~无持续风向",
+        "wind_power": "3-4级~微风",
+        "aqi": "141",
+        "weather": "晴",
+        "max_temperature": "2℃",
+        "aqiInfo": "轻度污染"
+      },
+      {
+        "aqiLevel": "1",
+        "time": "20160107",
+        "min_temperature": "-7℃",
+        "wind_direction": "北风~无持续风向",
+        "wind_power": "3-4级~微风",
+        "aqi": "28",
+        "weather": "晴",
+        "max_temperature": "2℃",
+        "aqiInfo": "优"
+      },
+      {
+        "aqiLevel": "1",
+        "time": "20160106",
+        "min_temperature": "-6℃",
+        "wind_direction": "北风",
+        "wind_power": "3-4级",
+        "aqi": "32",
+        "weather": "晴",
+        "max_temperature": "3℃",
+        "aqiInfo": "优"
+      },
+      {
+        "aqiLevel": "3",
+        "time": "20160105",
+        "min_temperature": "-7℃",
+        "wind_direction": "北风~无持续风向",
+        "wind_power": "3-4级~微风",
+        "aqi": "105",
+        "weather": "晴",
+        "max_temperature": "1℃",
+        "aqiInfo": "轻度污染"
+      },
+      {
+        "aqiLevel": "1",
+        "time": "20160104",
+        "min_temperature": "-6℃",
+        "wind_direction": "北风~无持续风向",
+        "wind_power": "3-4级~微风",
+        "aqi": "22",
+        "weather": "多云-晴",
+        "max_temperature": "2℃",
+        "aqiInfo": "优"
+      },
+      {
+        "aqiLevel": "5",
+        "time": "20160103",
+        "min_temperature": "-4℃",
+        "wind_direction": "无持续风向~北风",
+        "wind_power": "微风~3-4级",
+        "aqi": "285",
+        "weather": "霾-多云",
+        "max_temperature": "3℃",
+        "aqiInfo": "重度污染"
+      },
+      {
+        "aqiLevel": "6",
+        "time": "20160102",
+        "min_temperature": "-4℃",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "415",
+        "weather": "霾-雾",
+        "max_temperature": "6℃",
+        "aqiInfo": "严重污染"
+      },
+      {
+        "aqiLevel": "6",
+        "time": "20160101",
+        "min_temperature": "-4℃",
+        "wind_direction": "无持续风向",
+        "wind_power": "微风",
+        "aqi": "311",
+        "weather": "霾",
+        "max_temperature": "5℃",
+        "aqiInfo": "严重污染"
+      }
+    ]
+  }
+}
